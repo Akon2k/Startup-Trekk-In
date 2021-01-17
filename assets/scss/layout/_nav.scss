@@ -1,0 +1,42 @@
+.contenedor__nav {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+
+  &__lista ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: $Raleway;
+    font-weight: $bold;
+    font-size: $medium;
+  }
+
+  &__lista li {
+    padding: 2px 10px;
+  }
+
+  &__botones {
+    .inicio {
+      background-color: #fff;
+      border: none;
+      padding: 2px 2px;
+      width: 120px;
+      color: #000000;
+      font-family: $Raleway;
+      font-weight: $bold;
+      font-size: $medium;
+    }
+    .registro {
+      background-color: #2ab7ca;
+      width: 120px;
+      border: none;
+      padding: 2px 2px;
+      color: #fff;
+      font-family: $Raleway;
+      font-weight: $bold;
+      font-size: $medium;
+    }
+  }
+}

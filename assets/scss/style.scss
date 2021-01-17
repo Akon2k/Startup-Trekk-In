@@ -1,0 +1,29 @@
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+// Vendor
+@import 'vendor/bootstrap/bootstrap.scss';
+
+// Abstract
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/placeholders';
+@import 'abstract/variables';
+
+// Base
+@import 'base/base';
+
+// Layout
+@import 'layout/layout';
+@import 'layout/caracteristicas';
+@import 'layout/precios';
+
+// Components
+@import 'components/buttons';
+@import 'components/cards';
+
+// Pages
+@import 'pages/pages';
+
+// Themes

@@ -1,0 +1,10 @@
+@import "nav";
+@import "header";
+@import "main";
+@import "footer";
+@import "forms";
+
+body {
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+}

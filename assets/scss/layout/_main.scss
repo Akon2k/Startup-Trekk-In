@@ -1,0 +1,52 @@
+.principal {
+  background-image: url(../img/bg-hero.svg);
+  background-size: cover;
+  height: 100vh;
+
+  /* Para 320px */
+  @media only screen and (max-width: 320px) {
+    background-image: url(../img/bg-hero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__contenedor {
+    //height: 220px;
+    width: 400px;
+    position: absolute;
+    top: 15.625rem;
+    left: 9.625rem;
+    display: inline-block;
+    z-index: 100;
+
+    @media only screen and (max-width: 320px) {
+      height: 220px;
+      width: 400px;
+      position: absolute;
+      top: 5rem;
+      left: 0rem;
+      //display: inline-block;
+      //z-index: 100;
+      padding: 5px;
+    }
+
+    &__titulo {
+      color: #000000;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: $Raleway;
+      font-weight: $bold;
+      //font-size: $medium;
+    }
+
+    &__parrafo {
+      color: #000000;
+      font-family: $Raleway;
+      font-weight: $regular;
+      font-size: $medium;
+    }
+  }
+}

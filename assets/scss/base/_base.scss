@@ -1,0 +1,21 @@
+@import 'reset';
+@import 'typography';
+@import 'animation';
+
+body, body * {
+    box-sizing: border-box;
+}
+
+@keyframes grande_pequeno {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.5);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
